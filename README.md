@@ -19,11 +19,11 @@ There's Makefile to build docker container.
 <br>
 **Before launching Makefile, you have to replace `<42_API_UID>`, `<42_API_SECRET>`, `<42_AUTH_URL>` in `.env` file to your own 42API.**
 
-> (sudo) **make** : docker-compose up --build
-> <br>
-> **make fclean** : delete completely docker container, volume, network, image
-> <br>
-> **make re** : fclean all
+```
+>(sudo) make : docker-compose up --build
+> make fclean : delete completely docker container, volume, network, image
+> make re : fclean all
+```
 
 ## <img src="./image/barcode.png" width="25px" /> url
 
