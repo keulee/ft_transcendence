@@ -15,11 +15,15 @@
 
 ## <img src="./image/barcode.png" width="25px" /> Usage
 
-(sudo) **make** : docker-compose up --build
+There's Makefile to build docker container.
 <br>
-**make fclean** : delete completely docker container, volume, network, image
-<br>
-**make re** : fclean all
+**Before launching Makefile, you have to replace `<42_API_UID>`, `<42_API_SECRET>`, `<42_AUTH_URL>` in `.env` file to your own 42API.**
+
+> (sudo) **make** : docker-compose up --build
+> <br>
+> **make fclean** : delete completely docker container, volume, network, image
+> <br>
+> **make re** : fclean all
 
 ## <img src="./image/barcode.png" width="25px" /> url
 
@@ -44,57 +48,75 @@ For back : **docker restart backend**
 ## <img src="./image/barcode.png" width="25px" /> Screenshot of BarcodePong
 
 ##### First Page
+
 <img src="./image/FirstPage.png" />
 
 ##### Home Page
+
 <img src="./image/profilePage.png" />
 
 ##### Chat Page
+
 <img src="./image/ChatPage.png" />
 
 ##### Create a Chat
+
 <img src="./image/CreateChatPage.png" />
 
 ##### Chat at Public room
+
 <img src="./image/ChatingPage.png" />
 
 ##### When you access to Private chat room
+
 <img src="./image/PrivateChatPage.png" />
 
 ##### DM
+
 <img src="./image/DMPage.png" />
 
 ##### Game Page
+
 <img src="./image/GamePage.png" />
 
-##### Loading for searching a random-matching game 
+##### Loading for searching a random-matching game
+
 <img src="./image/GameLoadingPage.png" />
 
 ##### Game Setting 01 - For player who joined at the queue first (As Game room admin)
+
 <img src="./image/GameSettingPage01.png" />
 
 ##### Game Setting 02 - For player who joined at the queue later
+
 <img src="./image/GameSettingPage02.png" />
 
 ##### On gaming 01 (with big ball size setting)
+
 <img src="./image/GamingPage.png" />
 
 ##### On gaming 02 (with small ball size setting)
+
 <img src="./image/GameWithSmallBall.png" />
 
 ##### Game finished
+
 <img src="./image/WhenGameFinished.png" />
 
 ##### Setting Page
+
 <img src="./image/SettingPage.png" />
 
 ##### Change name
+
 <img src="./image/ChangeName.png" />
 
 ##### Change avatar
+
 <img src="./image/ChangeAvatar.png" />
 
 ##### 2FA
+
 <img src="./image/2FAAuthPage.png" />
 
 ## <img src="./image/barcode.png" width="25px" /> Made by
